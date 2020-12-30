@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Charcoal, sans-serif;
+      box-sizing: border-box;
+  }
+  .hero{
+
+    position: relative;
+    overflow: hidden;
+   margin-left: auto;
+   margin-right: auto;
+}
+h1{
+    font-size: 70px;
+   letter-spacing: 7px;
+  text-align: center;
+   bottom: 0;
+   color: black;
+   -webkit-text-stroke: 0.2vw white;
+   text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h1:hover{
+color:black;
+    transition: 0.5s;
+    z-index: 1; 
+    -webkit-text-stroke: 0.2vw white;
+    transform: translate(10px,20px);
+}
+#container{
+  
+    text-align: center;    
+  }
+
+button{
+    color: white;
+    padding: 10px 25px;
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    }
+    button:hover {
+    color: black;
+    background-color: white;
+    }
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+body {
+ 
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: #fdfdfd;
+}
+
+.hero h2{
+    text-align: center;
+      display: flex;
+      color: white;
+       margin-top: 40px;
+      justify-content: center;
+      align-items: center;
+      font-size: 7vw;
+       -webkit-text-stroke: 0.3vw black;
+      text-transform: uppercase;
+      position: relative;
+      font-weight: 400;
+      
+  }
+  .hero h2:hover{
+  color: black;
+      transition: 0.5s;
+      z-index: 1; 
+      -webkit-text-stroke: 0.3vw white;
+      transform: translate(10px,-10px);
+       background-color: black;
+   border: 7px solid black;
+      border-radius: 15px;
+      margin-right: 20px;
+  
+  }
+  
+.services-section{
+    background-color: #fdfdfd;
+    background-size: cover;
+     padding: 40px 0;
+ }
+ .inner-width{
+    width: 100%;
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 20px;
+     overflow: hidden;
+     
+ }
+ .section-title{
+    text-align: center;
+     color: black;
+     text-transform: uppercase;
+     font-size: 30px;
+ }
+ .border{
+     width: 160px;
+     height: 2px;
+     background: black;
+     margin: 40px auto;
+ }
+ .services-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .service-box{
+     max-width: 33.33%;
+     padding: 10px;
+     text-align: center;
+     color: black;
+     cursor: pointer;
+ }
+ .service-icon{
+     display: inline-block;
+     width: 70px;
+     height: 70px;
+     border: 3px solid black;
+     color: black;
+     transform: rotate(45deg);
+     margin-bottom: 30px;
+     margin-top: 16px;
+     transition: 0.3s linear;
+     
+ }
+ .service-icon i{
+     line-height: 70px;
+     transform: rotate(-45deg);
+     font-size: 26px;
+ }
+ .service-box:hover .service-icon{
+     background: black;
+     color: #ddd;
+ }
+ .service-title{
+     font-size: 18px;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+ }
+ .service-desc{
+     font-size: 14px;
+ }
+ @media screen and (max-width:960px){
+     .service-box{
+      max-width: 45%;
+     }
+ }
+ 
+ @media screen and (max-width:568px){
+     .service-box{
+      max-width: 50%;
+     }
+ }
+ @media screen and (max-width:960px){
+    .container{
+     max-width: 45%;
+    }
+}
+
+@media screen and (max-width:568px){
+    .container{
+     max-width: 50%;
+    }
+}
+#conteneur-about{
+    padding:100px 0px;
+  }
+  .about{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+  }
+  .profil-photo{
+    width:50%;
+    float:left;
+  }
+  .profil-photo img{
+    width:90%;
+  }
+  .profil-text{
+    width:50%;
+    float:left;
+    position:relative;
+  }
+  .profil-text h2{
+    padding-bottom:15px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+  }
+  .profil-text p{
+  padding-bottom:75px;
+  text-align:justify;
+  }
+  .profil-text a{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    text-decoration:none;
+    color:black;
+    background-color: #fdfdfd;
+    transition:0.4s;
+    padding:5px 25px;
+    border:1px solid white;
+  }
+  .profil-text a:hover{
+    text-decoration:none;
+    color:#999;
+    border:1px solid #999;
+    background-color:#FFF;
+    transition:0.4s;
+  }
+
+  /*SKILLS*/
+#conteneur-skills{
+    padding:100px 0px;
+    background-color:#fdfdfd;
+    margin-left: 10px;
+  }
+  .skills{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+  }
+  .title h2{
+    padding-bottom:25px;
+    font-size:25px;
+    font-weight:100;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .title p{
+  padding-bottom:75px;
+  text-align:justify;
+  width:100%;
+  margin:auto;
+  }
+  .bardiv{
+    width:100%;
+    margin:auto;
+  }
+  .bardiv h3{
+    font-size:20px;
+    padding-bottom:5px;
+    color: black;
+  }
+  .progressbar{
+    width:100%;
+    margin:auto;
+    height:5px;
+    background-color:#fdfdfd;
+    position:relative;
+    margin-bottom:15px;
+  }
+  .progressbar span{
+    height:5px;
+    background-color:#000;
+    z-index:888;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+  .html{
+    width:80%;
+  }
+  .css{
+    width:90%;
+  }
+  .javascript{
+    width:45%;
+  }
+  .Graphisme{
+    width:70%;
+  }
+  .marketing{
+    width:60%;
+  }
+  /*DIPLOMA*/
+  #conteneur-qualification{
+    padding:25px 0px;
+  }
+  .qualification{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+  }
+  .qualification h2{
+    padding-bottom:50px;
+    font-size:25px;
+    font-weight:100;
+    text-transform:uppercase;
+  }
+  .lastqualification{
+    padding-left:25px;
+    padding-bottom:25px;
+  }
+  .lastqualification h3{
+    font-size:20px;
+    padding-bottom:5px;
+    font-weight:100;
+    color:black;
+  }
+  .lastqualification h4{
+    font-size:17px;
+    padding-bottom:5px;
+    font-weight:100;
+    color:black;
+  }
+  .othqualification{
+    padding-left:25px;
+    padding-bottom:25px;
+  }
+  .othqualification h3{
+    font-size:17px;
+    padding-bottom:5px;
+    font-weight:100;
+  }
+  .othqualification h4{
+    font-size:15px;
+    padding-bottom:5px;
+    font-weight:100;
+    color:black;
+  }
